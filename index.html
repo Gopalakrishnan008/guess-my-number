@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Guess My Number</title>
+    <!-- icon -->
+    <link rel="shortcut icon" href="assets/icon/guess.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Tailwins Css -->
+    <link rel="stylesheet" href="./assets/css/output.css">
+</head>
+
+<body class="font-[popins] bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div class="max-w-xl mx-auto">
+    <div>
+        <h1 class="text-4xl font-bold text-center mt-28 ">Guess My Number</h1>
+    </div>
+    <div class="bg-[rgba(255,255,255,0.5)] rounded-xl m-12 flex flex-col  p-5 space-y-10">
+        <input type="number" placeholder="Guess The Corect Number...1 TO 10" id="input" class="text-center outline-none rounded-xl p-1 mx-5">
+        <button id="btn" class="bg-red-500 rounded-xl text-white w-36 mx-auto  p-1 hover:scale-x-110 duration-500" onclick="btnclick()">GUESS</button>
+        <p id="result" class="text-center">RESULT : LOOSE : 0 / WIN : 10 </p>
+        <p id="score" class="text-center">SCORE:5</p>
+        <p id="number" class="text-center">My Number : 🙈</p>
+    </div>
+    </div>
+    <!-- js file -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
