@@ -24,7 +24,7 @@ function btnclick() {
     alert("You Are Fail Try Again...🥺");
     location.reload();
   }
-  if (score == 10) {
+  if (score == 7) {
     alert("Congratulation You Win...🤓");
   }
 }
